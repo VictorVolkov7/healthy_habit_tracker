@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cw-7"
+version = "0.1.0"
+description = ""
+authors = ["Victor Volkov <vektorn1212@gmail.com>"]
+readme = "README.md"
+packages = [{include = "cw_7"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.7"
+python-dotenv = "^1.0.0"
+psycopg2-binary = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
